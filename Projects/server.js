@@ -52,6 +52,10 @@ const people = [
     }
   ];
 
+  app.get("/people", (req, res) => {
+    get_data(URL,"people", res)
+  });
+
 // app.get('/', (req, res) => res.send('Why, hello there!'))
 app.get("/", (request, response) => {
     response.render('index', {

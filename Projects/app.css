@@ -1,4 +1,8 @@
 
+div.pokeIn {
+    size: 90%;
+}
+
 ul.headLinks {
     text-decoration: none;
     margin: 0 auto;
