@@ -8,3 +8,5 @@ fetch ("https://pokeapi.co/api/v2/pokemon/rayquaza/")
         selector.innerHTML = `<img src="${pokemon.front_default}" />`
     }
 );
+
+console.log(pokemon);
