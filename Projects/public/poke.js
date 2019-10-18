@@ -1,4 +1,8 @@
-fetch ("https://pokeapi.co/api/v2/pokemon/rayquaza/")
+const ID = "2"
+
+
+
+fetch (`https://pokeapi.co/api/v2/pokemon/${ID}/`)
 .then((res) => res.json())
 .then( 
     data => {

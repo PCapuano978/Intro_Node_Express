@@ -22,6 +22,7 @@ const port = 8080
 app.use(express.static("public"));
 
 
+
 /** TEMPLATE ENGINE
 * Express Handlebars is setup here
 * 2. Define the template engine (hbs aka handlebars)
@@ -58,13 +59,13 @@ const people = [
 
 // app.get('/', (req, res) => res.send('Why, hello there!'))
 app.get("/", (request, response) => {
-    response.render('index', {
-      exampleVariable: "Hello, McMurdy",
+    response.render('index',  {
+      title: "Patrick's Pokémon Package",
       people: people 
     });
   });
 
 
-app.listen(port, () => console.log('Example app listening on port${port}!'))
+app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 // app.use('/', (req, res) => res.send('<h2>Hello from the server endpoint!</h2>'));
 
