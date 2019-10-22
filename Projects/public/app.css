@@ -7,6 +7,7 @@ body {
 h1 img {
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 1em;
+    padding: .25em;
 }
 
 h1 img {
@@ -17,7 +18,7 @@ h1 img {
 div.pokeOut {
     background-color: rgba(255, 255, 255, 0.85);
     position: absolute;
-    left: 38.8%;
+    left: 39.5%;
     top: 35%;
     width: 20em;
     height: 20em;
@@ -63,23 +64,49 @@ div.rightArrow {
     position: absolute;
     top: 50%;
     left: 65%;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.85);
     border-radius: 1em;
-    padding: .5em;
+    padding: 1em 1em 0 1em;
 }
 
-div.numbers {
+ul.intervalRight li {
+    display: block;
     float: left;
 }
 
-p.five, p.ten, p.hundred {
+li.five, li.ten, li.hundred {
     color: yellow;
     text-shadow: 1px 2px blue;
-    font-size: 1.5em;
+    font-size: 2em;
+    padding: 0 .5em 0 0 ;
 }
 
-/* div.rightArrow p.one {
+div.leftArrow {
     position: absolute;
-    top: 55%;
-    left: 65%;
-} */
+    top: 50%;
+    left: 18.5%;
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 1em;
+    padding: 1em 1em 0 1em;
+}
+
+div.leftArrow img {
+    transform: scaleX(-1);
+    float: right;
+}
+
+ul.intervalLeft li {
+    display: block;
+    float: right;
+}
+
+li.five, li.ten, li.hundred {
+    color: yellow;
+    text-shadow: 1px 2px blue;
+    font-size: 2em;
+    padding: 0 0 0 .5em ;
+}
+
+ul.intervalLeft li.five {
+    padding-right: 1.5em;
+}
