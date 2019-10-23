@@ -16,43 +16,61 @@ h1 img {
 }
 
 div.pokeOut {
+    color: blue;
+    text-shadow: 2px 2px 0px yellow;
     background-color: rgba(255, 255, 255, 0.85);
     position: absolute;
     left: 39.5%;
-    top: 35%;
+    top: 32%;
     width: 20em;
     height: 20em;
     border-radius: 1em;
     border: solid black 3px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-bottom: 1em;
 }
 
 div.pokeOut h1 {
-    color: greenyellow;
     margin: 10% 22%;
-    font-size: 2.7em;
+    font-size: 2.5em;
     text-shadow: 1px 1px black;
 }
 
 div.pokeOut p {
-    color: green;
-    margin: 10% 25% 20% 25%;
-    font-size: 1.25em;
-    text-shadow: 1px 1px black;
+    color: yellow;
+    text-shadow: 2px 2px 0px blue;
+    font-size: 1.75em;
+    text-align: center;
+    padding-bottom: .5em;
+    kerning: 1em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-div.pokeIn img {
+div.pokeIn img, div.pokeIn2 img {
+    
     width: 150%;
     height: 150%;
+    margin: 0 auto;
+}
+
+div.pokeIn, div.pokeIn2 {
+    margin-top: em;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 1em;
+    border: solid red 3px;
+    position: absolute;
+    padding-right: 2.7em;   
 }
 
 div.pokeIn {
-    margin-top: 1em;
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 1em;
-    position: absolute;
-    padding-right: 2.7em;
-    top: 40%;
-    left: 28.5%;
+    top: 45%;
+    left: 5%;
+}
+
+div.pokeIn2 {
+    top: 45%;
+    left: 50%;
 }
 
 ul.headLinks {
